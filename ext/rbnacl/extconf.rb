@@ -18,7 +18,7 @@ clean:
 MAKEFILE
 
 HOST = arg_config("--host")
-OPTIONS = [].freeze
+OPTIONS = []
 OPTIONS << "--host=#{HOST}" if HOST
 
 CWD = __dir__
